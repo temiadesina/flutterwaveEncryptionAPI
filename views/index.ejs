@@ -1,0 +1,17 @@
+<%- include partials/header.ejs %>
+<div class="container">
+	<div class="row">
+		<form method="POST" id="form_params_raw_encrypt" class="form-card" style="margin-top: -50px;">
+			<div id="raw" style="display: none;">
+					<div class="form-group">
+							<textarea class="form-control" rows="12" id="rawParamU" placeholder="Insert JSON Payload" required>
+							</textarea>
+					</div>
+				<input type="submit" class="btn btn-lg btn-primary btn-block" id="raw_encrypt" value="Encrypt" />
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<%- include partials/footer.ejs %>
