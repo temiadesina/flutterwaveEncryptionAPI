@@ -5,6 +5,7 @@ This is an encryption api that turns any json payload you send to it using the f
 ```
 {
   "encryption_key": "// put your encryption key here",
+  "merchantid": "// add your merchant id here " <OPTIONAL>,
   "jsonbody": {
             "// your JSON body here" 
           }
