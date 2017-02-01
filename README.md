@@ -10,4 +10,7 @@ This is an encryption api that turns any json payload you send to it using the f
           }
  }
 ``` 
- 
+
+You can use this functionality by making [post] request with the jsonpayload structure above to https://flutter-encrypt.herokuapp.com/process/encrypt
+
+> Project improvements are welcomed, for example making it also accept values from forms as key:values.
